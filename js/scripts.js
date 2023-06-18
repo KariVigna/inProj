@@ -1,7 +1,8 @@
 window.onload = function () {
     let form = document.querySelector("form");
     form.onsubmit = function(event) {
-        event.preventDefault();
+        return 
+       
 
         let ans1 = document.getElementById("ans1");
         ans1.setAttritube("class", "hidden");
@@ -22,18 +23,18 @@ window.onload = function () {
         
         window.addEventListener("load", function() {
             this.document.getElementById("radio-form").addEventListener("submit", handleRadio);
-        });
+        
+
         let result;
             if (q1 === yes, q2 === yes, q3 === yes, q4 ===yes, q5 === yes) {
                 ans1.removeAttribute("class", "hidden");
-            }else if (q1 === no, q2 === no, q3 === no, q4 ===no, q5 === no) {
+            } else if (q1 === no, q2 === no, q3 === no, q4 ===no, q5 === no) {
                 ans2.removeAttribute("class", "hidden")
-            }else {
+            } else {
                 ans3.removeAttribute("class", "hidden");
             }
-
             }
-            }
+            )}};
 
         
 
