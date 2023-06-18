@@ -23,10 +23,10 @@ _This application collects information on users regarding their personality, the
 
 ## Known Bugs
 
-* _Form does no submit nor return a result_
+* _Form does not submit nor return a result_
 
 ## License
 
-_Free to use_
+_MIT_
 
 Copyright (c) _06/18/2023_ _Kari Vigna_
