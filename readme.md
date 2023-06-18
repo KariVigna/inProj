@@ -13,20 +13,17 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This application collects information on users regarding their personality, then returns a result indicating which programming langauge is the best choice for the user to learn._
 
 ## Setup/Installation Requirements
 
-* _Close repo to desktop_
-* _Navigate to projects top level directory_
-* _open inProj/index.html in your browser_
-* _easy-to-understand_
-* _format_
+* _Clone repository to desktop_
+* _Navigate to this projects top level directory_
+* _Open inProj/index.html in your browser_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _Form does no submit nor return a result_
 
 ## License
 
