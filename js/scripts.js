@@ -7,7 +7,7 @@ window.onload = function () {
             let Q3 = document.querySelector("input[name=q3]:checked").value;
             let Q4 = document.querySelector("input[name=q4]:checked").value;
             let Q5 = document.querySelector("input[name=q5]:checked").value;
-        }  
+        
 
         //let ans1 = document.getElementById("ans1");
         //ans1.setAttritube("class", "hidden");
@@ -20,14 +20,14 @@ window.onload = function () {
 
         let result;
             if (q1 === yes, q2 === yes, q3 === yes, q4 ===yes, q5 === yes) {
-                document.querySelector(div#ans1).removeAttribute("class", "hidden");
+                document.querySelector(div#ans1).removeAttribute("class");
             } else if (q1 === no, q2 === no, q3 === no, q4 ===no, q5 === no) {
-                document.querySelector(div#ans2).removeAttribute("class", "hidden")
+                document.querySelector(div#ans2).removeAttribute("class")
             } else {
-                document.querySelector(div#ans3).removeAttribute("class", "hidden");
+                document.querySelector(div#ans3).removeAttribute("class");
             }
-            }
-            };
+            }};
+            ;
 
         
 
