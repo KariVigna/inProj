@@ -1,3 +1,20 @@
 .hidden {
     display: none;
-} ;
+} 
+
+p {
+    color: seagreen;
+
+}
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    border-style: dashed;
+    border-color: green;
+    text-align: center;
+    font-style: italic;
+}
+
