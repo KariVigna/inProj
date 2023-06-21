@@ -1,6 +1,6 @@
 window.onload = function () {
     let form = document.querySelector("form");
-    form.onsubmit = function(event) {
+    form.onsubmit = ("submit", function(event) {
         event.preventDefault();
    
     let Q1 = document.querySelector("input[name=q1]:checked").value;
@@ -18,13 +18,13 @@ window.onload = function () {
         
         let result;
             if (Q1 === "yes", Q2 === "yes", Q3 === "yes", Q4 === "yes", Q5 === "yes") {
-                document.querySelector("div#ans1").removeAttribute("class", "hidden");
+                document.querySelector("div#ans1").removeAttribute("class");
             } else if (Q1 === "no", Q2 === "no", Q3 === "no", Q4 === "no", Q5 === "no") {
-                document.querySelector("div#ans2").removeAttribute("class", "hidden")
+                document.querySelector("div#ans2").removeAttribute("class")
             } else {
-                document.querySelector("div#ans3").removeAttribute("class", "hidden");
+                document.querySelector("div#ans3").removeAttribute("class");
             }
-            };
+            });
         };
 
         
