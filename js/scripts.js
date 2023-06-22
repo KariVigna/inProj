@@ -1,6 +1,6 @@
 window.onload = function () {
-    let form = document.querySelector("form");
-    form.onsubmit = ("submit", function(event) {
+    let form = document.querySelector("radio-form");
+    form.addEventListener = ("submit", function(event) {
         event.preventDefault();
    
     let Q1 = document.querySelector("input[name=q1]:checked").value;
@@ -15,6 +15,7 @@ window.onload = function () {
     ans2.setAttribute("class", "hidden");
     let ans3 = document.getElementById("ans3");
     ans3.setAttribute("class", "hidden");
+
         
         let result;
             if (Q1 === "yes", Q2 === "yes", Q3 === "yes", Q4 === "yes", Q5 === "yes") {
@@ -24,6 +25,7 @@ window.onload = function () {
             } else {
                 document.querySelector("div#ans3").removeAttribute("class");
             }
+            //event.preventDefault();
             });
         };
 
