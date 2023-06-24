@@ -1,9 +1,7 @@
 window.onload = function () {
-    console.log("window loads");
     let form = document.querySelector("form");
     form.onsubmit = function(event) {
         event.preventDefault();
-        console.log("form submits");
    
     let Q1 = document.querySelector("input[name=q1]:checked").value;
     let Q2 = document.querySelector("input[name=q2]:checked").value;
@@ -11,12 +9,12 @@ window.onload = function () {
     let Q4 = document.querySelector("input[name=q4]:checked").value;
     let Q5 = document.querySelector("input[name=q5]:checked").value;
         
-    // let ans1 = document.getElementById("ans1");
-    // ans1.setAttritube("class", "hidden");
-    // let ans2 = document.getElementById("ans2");
-    // ans2.setAttribute("class", "hidden");
-    // let ans3 = document.getElementById("ans3");
-    // ans3.setAttribute("class", "hidden");
+    let ans1 = document.getElementById("ans1");
+    ans1.setAttribute("class", "hidden");
+    let ans2 = document.getElementById("ans2");
+    ans2.setAttribute("class", "hidden");
+    let ans3 = document.getElementById("ans3");
+    ans3.setAttribute("class", "hidden");
 
         
     let result;
