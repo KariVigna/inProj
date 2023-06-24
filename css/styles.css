@@ -1,24 +1,28 @@
-.hidden {
-    display: none;
-} 
-
-p {
-    color: seagreen;
-
-}
-
 body {
     background-color: bisque;
     text-align: center;
+    font-family: arial;
 }
-
 h1 {
     border-style: dashed;
     border-color: green;
     text-align: center;
     font-style: italic;
 }
-
-.radio-form {
-    display: inline-block;
+span {
+    font-weight: bold;
 }
+p {
+    color: seagreen;
+    font-family: arial;
+    font-size: large;
+}
+.hidden {
+    display: none;
+}
+ 
+
+
+
+
+
