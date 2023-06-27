@@ -20,10 +20,11 @@ _This application collects information on users regarding their personality, the
 * _Clone repository to desktop_
 * _Navigate to this projects top level directory_
 * _Open inProj/index.html in your browser_
+* _Visit karivigna.github.io/inProj in your web browser_
 
 ## Known Bugs
 
-* _Form does not submit nor return a result_
+* _There are no known bugs_
 
 ## License
 
