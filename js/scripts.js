@@ -16,7 +16,6 @@ window.onload = function () {
         let ans3 = document.getElementById("ans3");
         ans3.setAttribute("class", "hidden");
 
-        let result;
         if (Q1 === "yes" && Q2 === "yes" && Q3 === "yes" && Q4 === "yes" && Q5 === "yes") {
             document.querySelector("div#ans1").removeAttribute("class");
         } else if (Q1 === "no" && Q2 === "no" && Q3 === "no" && Q4 === "no" && Q5 === "no") {
